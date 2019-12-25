@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/cropper.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Content -->
+  <div class="container" style="margin-top:50px;">
+    <div class="row">
+      <div class="col-md-9">
+        <!-- <h3>Demo:</h3> -->
+        <div class="img-container">
+          <img id="image" src="images/picture.jpg" alt="Picture">
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-9 docs-buttons">
+
+                <div class="btn-group btn-group-crop">
+                    <button class="btn btn-primary" id="createImage" data-option="{ &quot;width&quot;: 180, &quot;height&quot;: 90 }" type="button">
+                        完成
+                    </button>
+
+                  <button type="button" class="btn btn-primary" data-method="reset" >
+                    <span class="docs-tooltip" data-toggle="tooltip" data-animation="false" >
+                      取消
+                    </span>
+                  </button>
+                </div>
+        <div>
+
+      </div><!-- /.docs-buttons -->
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/tether.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/cropper.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
